@@ -8,3 +8,6 @@ spec/myplugin
 spec/plugins
 spec/platforms
 yarn.lock
+
+src/electron/node_modules
+src/electron/package.lock.json
