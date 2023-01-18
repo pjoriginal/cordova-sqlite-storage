@@ -18,7 +18,7 @@
     "electron-rebuild": "^3.2.9"
   },
   "scripts": {
-    "rebuild": "electron-rebuild"
+    "rebuild": "npm i && electron-rebuild"
   },
   "cordova": {
     "serviceName": "SQLitePlugin"
