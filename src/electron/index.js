@@ -33,7 +33,7 @@ module.exports = {
             }
 
             try {
-                dbmap[name] = new Database(`${dataDirectory}${name}.db`, { verbose: false });
+                dbmap[name] = new Database(`${dataDirectory}${name}.db`, { verbose: () => false });
             } catch (e) {
                 // INTERNAL OPEN ERROR
                 return reject(e);
